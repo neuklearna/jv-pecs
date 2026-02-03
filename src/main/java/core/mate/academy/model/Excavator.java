@@ -6,7 +6,7 @@ public class Excavator extends Machine {
     private int cost;
     private int power;
 
-    public  Excavator() {
+    public Excavator() {
     }
 
     public Excavator(int productionYear, int cost, int power) {
