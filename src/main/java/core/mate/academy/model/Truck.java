@@ -1,11 +1,18 @@
 package core.mate.academy.model;
 
-/**
- * Add some custom fields that could be only in Truck
- * Do not remove no-field constructor
- */
 public class Truck extends Machine {
+
+    int productionYear;
+    int cost;
+    int power;
+
     public Truck() {
+    }
+
+    public Truck(int productionYear, int cost, int power) {
+        this.productionYear = productionYear;
+        this.cost = cost;
+        this.power = power;
     }
 
     @Override
