@@ -7,7 +7,7 @@ import java.util.List;
 public class TruckProducer implements MachineProducer {
 
     @Override
-    public List<Truck> get(){
+    public List<Truck> get() {
         List<Truck> trucks = new ArrayList<Truck>();
         trucks.add(new Truck(2020,50600,400));
         trucks.add(new Truck(2021,62200,500));

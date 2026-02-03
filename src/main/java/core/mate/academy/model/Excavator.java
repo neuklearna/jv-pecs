@@ -2,9 +2,9 @@ package core.mate.academy.model;
 
 public class Excavator extends Machine {
 
-    int productionYear;
-    int cost;
-    int power;
+    private int productionYear;
+    private int cost;
+    private int power;
 
     public  Excavator() {
     }
